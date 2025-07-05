@@ -1,0 +1,42 @@
+@media (min-width: 768px){
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .logo{
+        margin: 45px;
+        gap: 5px;
+    }
+
+    .logo h1{
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .menu li a{
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .menu li a:hover{
+        padding: 11px 7px;
+    }
+
+    .menu li a.botao{
+        margin-top: 45px;
+        margin-right: 45px;
+        font-size: 15px;
+        font-weight: 300;
+        padding: 10px 20px;
+    }
+}
